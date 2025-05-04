@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 5th Questions */
+#main-heading {
+    color: blue;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+/* 6th Questions */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content {
+    flex: 2;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+/* 10th Questions */
+.inline-box {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background: lightgreen;
+}
+
+.hidden {
+    display: none;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.transparent {
+    opacity: 0;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    background: lightblue;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* 11th Questions */
+.hidden {
+    display: none;
+}
+
+
+.invisible {
+    visibility: hidden;
+}

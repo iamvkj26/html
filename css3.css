@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+/* 1st Questions */
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+/* 2nd Questions */
+.nd2 {
+    color: navy;
+    font-family: Arial, sans-serif;
+}
+
+/* 3rd Questions */
+.highlight {
+    background-color: yellow;
+}
+
+#main-header {
+    font-size: 24px;
+}
+
+ul>li {
+    list-style-type: square;
+}
+
+/* 4th Questions */
+.box {
+    width: 50vw;
+    /* 50% of the viewport width */
+    height: 30vh;
+    /* 30% of the viewport height */
+    background-color: skyblue;
+}
+
+/* 5th Questions */
+.block1 {
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+.block12 {
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+.block123 {
+    display: inline;
+    width: 200px;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.yellow {
+    background-color: yellowgreen;
+}
+
+.title {
+    text-align: center;
+}
+
+.block {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.inline {
+    display: inline;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.inline-block {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* 6th Questions */
+a:hover {
+    color: red;
+}
+
+li:nth-child(2) {
+    font-weight: bold;
+}
+
+p::first-line {
+    font-variant: small-caps;
+}
+
+h1::before {
+    content: "★ ";
+    color: gold;
+}
+
+/* 7th Questions */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+/* Tablet version */
+@media (max-width: 1024px) {
+    body {
+        background: lightgray;
+    }
+}
+
+/* Mobile version */
+@media (max-width: 480px) {
+    body {
+        background: lightblue;
+    }
+}
+
+/* 8th Questions */
+.boxies1 {
+    box-sizing: content-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.boxies2 {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+/* 9th Questions */
+.element {
+    opacity: 0.5;
+}
+
+/* 10th Questions */
+.container {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.blue {
+    background-color: blue;
+}
+
+/* 11th Questions */
+.element {
+    position: relative;
+}
+
+.item-1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.item-2 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.item-3 {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.item-4 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+/* 12th Questions */
+/* For mobile devices */
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/* For tablets and above */
+@media (min-width: 601px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/* Mobile styles first */
+.media-query {
+    font-size: 14px;
+}
+
+/* Then scale up with media queries */
+@media (min-width: 768px) {
+    .media-query {
+        font-size: 18px;
+    }
+}
+
+/* 13th Questions */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+}
+
+.item {
+    background-color: antiquewhite;
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+}
